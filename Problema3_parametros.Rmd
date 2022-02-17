@@ -1,0 +1,6 @@
+
+3. Utiliza el Teorema Fundamental del Cálculo para encontrar el valor de 
+$$\int_0^{\pi/ {`r params$a31`}} sen^{{`r params$e31`}}(x) cos(x) dx$$
+
+
+*Respuesta:* `r if (params$respuestas == TRUE) params$r31` 

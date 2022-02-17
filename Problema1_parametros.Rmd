@@ -1,0 +1,5 @@
+
+
+1. Resuelve la siguiente integral $$\int({`r params$a11`}x^{`r params$e12-1`}+1 )({`r params$a11`}x^{`r params$e12`}+{`r params$e12`}x-{`r params$a12`})^{`r params$e11`}dx$$. 
+
+*Respuesta: *

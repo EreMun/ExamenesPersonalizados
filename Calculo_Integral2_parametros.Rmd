@@ -1,0 +1,38 @@
+---
+title: "Examen de Cálculo Integral"
+author: "Profra: Dra. Eréndira Munguía Villanueva"
+date: "1/26/2022"
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+params:
+  respuestas: yes
+  nombre: Anita
+  a11: 9
+  a12: 9
+  e11: 3
+  e12: 4
+  a21: -4
+  b21: 1
+  r21: 0
+  a31: 2
+  e31: 3
+  r31: 0
+---
+
+## Nombre: `r params$nombre`
+ 
+### Lee atenatamente cada ejercicio, pregunta cualquier duda.
+
+```{r, include=FALSE}
+Lista_problemas = NULL
+ if (params$respuesta == TRUE) 
+   {Lista_problemas=c('Problema1_parametros.Rmd', 'Respuesta1_parametros.Rmd', 'Problema2_Parametros.Rmd', 'Problema3_parametros.Rmd') 
+ }else 
+  {Lista_problemas=c('Problema1_parametros.Rmd', 'Problema2_Parametros.Rmd', 'Problema3_parametros.Rmd')}
+```
+
+```{r, child = Lista_problemas}
+```
+ 

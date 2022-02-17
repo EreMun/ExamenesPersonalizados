@@ -1,0 +1,3 @@
+
+  
+ $$ \dfrac{({`r params$a11`}x^{`r params$e12`}+{`r params$e12`}x-{`r params$a12`})^{`r params$e11+1`}}{`r (params$e11+1)*params$e12`}+C $$

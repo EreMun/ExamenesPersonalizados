@@ -1,0 +1,5 @@
+
+2. Encuentra el valor de la integral definida
+$$ \int_{`r params$a21`}^{`r params$b21`} x dx $$
+
+ *Respuesta:* `r if (params$respuestas == TRUE) params$r21 `
