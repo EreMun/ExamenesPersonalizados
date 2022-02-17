@@ -2,9 +2,7 @@
 title: "Tutorial Exámenes personalizados"
 author: "Eréndira Munguía Villanueva, Emmanuel Munguía Balvanera"
 output: github_document
-    toc: true
-    toc_float: true
-toc_title: "Tabla de Contenido"
+    
 ---
 ## Inicio{#Inicio}
 
