@@ -1,7 +1,9 @@
 ---
 title: "Tutorial Exámenes personalizados"
 author: "Eréndira Munguía Villanueva, Emmanuel Munguía Balvanera"
-output: github_document
+output:
+  github_document:
+    pandoc_args: --webtex
     
 ---
 ## Inicio{#Inicio}

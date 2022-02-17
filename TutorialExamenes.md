@@ -19,21 +19,28 @@ Lo primero que debemos tener es un examen como en el siguiente ejemplo:
 *Nombre: Peter Paterson *
 
 1.  Resuelve la siguiente integral
-    ∫(13*x*<sup>5</sup>+1)(13*x*<sup>6</sup>+6*x*−12)<sup>3</sup>*d**x*
+
+    ![\\int({14}x^{2}+1 )({14}x^{3}+{3}x-{12})^{6}dx](https://latex.codecogs.com/png.latex?%5Cint%28%7B14%7Dx%5E%7B2%7D%2B1%20%29%28%7B14%7Dx%5E%7B3%7D%2B%7B3%7Dx-%7B12%7D%29%5E%7B6%7Ddx "\int({14}x^{2}+1 )({14}x^{3}+{3}x-{12})^{6}dx")
+
     .
 
-Respuesta: $\\dfrac{({13}x^{6}+{6}x-{12})^{4}}{24}+C$
+Respuesta:
+![\\dfrac{({14}x^{3}+{3}x-{12})^{7}}{21}+C](https://latex.codecogs.com/png.latex?%5Cdfrac%7B%28%7B14%7Dx%5E%7B3%7D%2B%7B3%7Dx-%7B12%7D%29%5E%7B7%7D%7D%7B21%7D%2BC "\dfrac{({14}x^{3}+{3}x-{12})^{7}}{21}+C")
 
 2.  Encuentra el valor de la siguiente integral definida
-    ∫<sub>0</sub><sup>5</sup>*x**d**x*
+
+    ![ \\int\_{0}^{6} x dx ](https://latex.codecogs.com/png.latex?%20%5Cint_%7B0%7D%5E%7B6%7D%20x%20dx%20 " \int_{0}^{6} x dx ")
+
       
-    Respuesta: 12.5
+    Respuesta: 18
 
 3.  Utiliza el Teorema Fundamental del Cálculo para encontrar el valor
     de
-    ∫<sub>0</sub><sup>*π*/6</sup>*s**e**n*<sup>3</sup>(*x*)*c**o**s*(*x*)*d**x*
+
+    ![\\int_0^{\\pi/ {3}} sen^{{3}}(x) cos(x) dx](https://latex.codecogs.com/png.latex?%5Cint_0%5E%7B%5Cpi%2F%20%7B3%7D%7D%20sen%5E%7B%7B3%7D%7D%28x%29%20cos%28x%29%20dx "\int_0^{\pi/ {3}} sen^{{3}}(x) cos(x) dx")
+
       
-    Respuesta : 0.109375
+    Respuesta : 0.234375
 
 La idea principal es que obtengamos para cada estudiante de nuestra
 lista de asistencia un examen análogo a éste pero distinto en
@@ -61,22 +68,26 @@ La elección de qué parámetros cambiarán deberá depender del objetivo
 pedagógico de cada ejercicio.
 
 1.  Resuelve la siguiente integral
-    ∫(*a*<sub>11</sub>*x*<sup>*e*<sub>12</sub> − 1</sup>+1)(*a*<sub>11</sub>*x*<sup>*e*<sub>12</sub></sup>+*e*<sub>12</sub>*x*−*a*<sub>12</sub>)<sup>*e*<sub>11</sub></sup>*d**x*
+
+    ![\\int(a\_{11}x^{e\_{12}-1}+1)(a\_{11}x^{e\_{12}}+e\_{12}x-a\_{12})^{e\_{11}}dx](https://latex.codecogs.com/png.latex?%5Cint%28a_%7B11%7Dx%5E%7Be_%7B12%7D-1%7D%2B1%29%28a_%7B11%7Dx%5E%7Be_%7B12%7D%7D%2Be_%7B12%7Dx-a_%7B12%7D%29%5E%7Be_%7B11%7D%7Ddx "\int(a_{11}x^{e_{12}-1}+1)(a_{11}x^{e_{12}}+e_{12}x-a_{12})^{e_{11}}dx")
 
 *Respuesta:*
-$r\_{11}=\\dfrac{(a\_{11}x^{e\_{12}}+{e\_{12}}x-{a\_{12}})^{e\_{11}+1}}{(e\_{11}+1)e\_{12}}+C$.
+![r\_{11}=\\dfrac{(a\_{11}x^{e\_{12}}+{e\_{12}}x-{a\_{12}})^{e\_{11}+1}}{(e\_{11}+1)e\_{12}}+C](https://latex.codecogs.com/png.latex?r_%7B11%7D%3D%5Cdfrac%7B%28a_%7B11%7Dx%5E%7Be_%7B12%7D%7D%2B%7Be_%7B12%7D%7Dx-%7Ba_%7B12%7D%7D%29%5E%7Be_%7B11%7D%2B1%7D%7D%7B%28e_%7B11%7D%2B1%29e_%7B12%7D%7D%2BC "r_{11}=\dfrac{(a_{11}x^{e_{12}}+{e_{12}}x-{a_{12}})^{e_{11}+1}}{(e_{11}+1)e_{12}}+C").
 
 2.  Encuentra el valor de la siguiente integral definida
-    ∫<sub>*a*<sub>21</sub></sub><sup>*b*<sub>21</sub></sup>*x**d**x*
 
-*Respuesta:* $r\_{21}=\\dfrac{b\_{21}^2-a\_{21}^2}{2}$
+    ![ \\int\_{a\_{21}}^{b\_{21}} x dx ](https://latex.codecogs.com/png.latex?%20%5Cint_%7Ba_%7B21%7D%7D%5E%7Bb_%7B21%7D%7D%20x%20dx%20 " \int_{a_{21}}^{b_{21}} x dx ")
+
+*Respuesta:*
+![r\_{21}=\\dfrac{b\_{21}^2-a\_{21}^2}{2}](https://latex.codecogs.com/png.latex?r_%7B21%7D%3D%5Cdfrac%7Bb_%7B21%7D%5E2-a_%7B21%7D%5E2%7D%7B2%7D "r_{21}=\dfrac{b_{21}^2-a_{21}^2}{2}")
 
 3.  Utiliza el Teorema Fundamental del Cálculo para encontrar el valor
     de
-    ∫<sub>0</sub><sup>*π*/*a*<sub>31</sub></sup>*s**e**n*<sup>*e*<sub>31</sub></sup>(*x*)*c**o**s*(*x*)*d**x*
+
+    ![\\int_0^{\\pi/ {a\_{31}}} sen^{e\_{31}}(x) cos(x) dx](https://latex.codecogs.com/png.latex?%5Cint_0%5E%7B%5Cpi%2F%20%7Ba_%7B31%7D%7D%7D%20sen%5E%7Be_%7B31%7D%7D%28x%29%20cos%28x%29%20dx "\int_0^{\pi/ {a_{31}}} sen^{e_{31}}(x) cos(x) dx")
 
 *Respuesta:*
-$r\_{31}=\\dfrac{sen^{e\_{31}+1}(\\pi/ {a\_{31}})-sen^{e\_{31}+1}(0)}{e\_{31}+1}$
+![r\_{31}=\\dfrac{sen^{e\_{31}+1}(\\pi/ {a\_{31}})-sen^{e\_{31}+1}(0)}{e\_{31}+1}](https://latex.codecogs.com/png.latex?r_%7B31%7D%3D%5Cdfrac%7Bsen%5E%7Be_%7B31%7D%2B1%7D%28%5Cpi%2F%20%7Ba_%7B31%7D%7D%29-sen%5E%7Be_%7B31%7D%2B1%7D%280%29%7D%7Be_%7B31%7D%2B1%7D "r_{31}=\dfrac{sen^{e_{31}+1}(\pi/ {a_{31}})-sen^{e_{31}+1}(0)}{e_{31}+1}")
 
 ------------------------------------------------------------------------
 
@@ -86,11 +97,13 @@ Los [parámteros en nuestro ejemplo](#EjemploTextoParametros), para cada
 ejercicio, son:
 
 -   Ejercicio 1:
-    *a*<sub>11</sub>, *a*<sub>12</sub>, *e*<sub>11</sub>, *e*<sub>12</sub>
+    ![a\_{11},\\ a\_{12},\\  e\_{11},\\ e\_{12}](https://latex.codecogs.com/png.latex?a_%7B11%7D%2C%5C%20a_%7B12%7D%2C%5C%20%20e_%7B11%7D%2C%5C%20e_%7B12%7D "a_{11},\ a_{12},\  e_{11},\ e_{12}")
 
--   Ejercicio 2: *a*<sub>21</sub>, *b*<sub>21</sub>
+-   Ejercicio 2:
+    ![a\_{21},\\ b\_{21}](https://latex.codecogs.com/png.latex?a_%7B21%7D%2C%5C%20b_%7B21%7D "a_{21},\ b_{21}")
 
--   Ejercicio 3: *a*<sub>31</sub>, *e*<sub>31</sub>
+-   Ejercicio 3:
+    ![a\_{31},\\  e\_{31}](https://latex.codecogs.com/png.latex?a_%7B31%7D%2C%5C%20%20e_%7B31%7D "a_{31},\  e_{31}")
 
 Nótese para cada ejercicio las respuestas pueden obtenerse como
 funciones o fórmulas de sus parámetros. Esta cualidad nos permitirá
@@ -98,12 +111,13 @@ obtener las respuestas de forma automática. Así en nuestro ejemplo, para
 cada ejercicio, las respuestas son:
 
 -   Respuesta al Ejercicio 1:
-    $r\_{11}=\\dfrac{(a\_{11}x^{e\_{12}}+{e\_{12}}x-{a\_{12}})^{e\_{11}+1}}{(e\_{11}+1)e\_{12}}+C$
+    ![r\_{11}=\\dfrac{(a\_{11}x^{e\_{12}}+{e\_{12}}x-{a\_{12}})^{e\_{11}+1}}{(e\_{11}+1)e\_{12}}+C](https://latex.codecogs.com/png.latex?r_%7B11%7D%3D%5Cdfrac%7B%28a_%7B11%7Dx%5E%7Be_%7B12%7D%7D%2B%7Be_%7B12%7D%7Dx-%7Ba_%7B12%7D%7D%29%5E%7Be_%7B11%7D%2B1%7D%7D%7B%28e_%7B11%7D%2B1%29e_%7B12%7D%7D%2BC "r_{11}=\dfrac{(a_{11}x^{e_{12}}+{e_{12}}x-{a_{12}})^{e_{11}+1}}{(e_{11}+1)e_{12}}+C")
 
--   Respuesta al Ejercicio 2: $r\_{21}=\\dfrac{b\_{21}^2-a\_{21}^2}{2}$
+-   Respuesta al Ejercicio 2:
+    ![r\_{21}=\\dfrac{b\_{21}^2-a\_{21}^2}{2}](https://latex.codecogs.com/png.latex?r_%7B21%7D%3D%5Cdfrac%7Bb_%7B21%7D%5E2-a_%7B21%7D%5E2%7D%7B2%7D "r_{21}=\dfrac{b_{21}^2-a_{21}^2}{2}")
 
 -   Respuesta al Ejercicio 3:
-    $r\_{31}=\\dfrac{sen^{e\_{31}+1}(\\pi/ {a\_{31}})-sen^{e\_{31}+1}(0)}{e\_{31}+1}$
+    ![r\_{31}=\\dfrac{sen^{e\_{31}+1}(\\pi/ {a\_{31}})-sen^{e\_{31}+1}(0)}{e\_{31}+1}](https://latex.codecogs.com/png.latex?r_%7B31%7D%3D%5Cdfrac%7Bsen%5E%7Be_%7B31%7D%2B1%7D%28%5Cpi%2F%20%7Ba_%7B31%7D%7D%29-sen%5E%7Be_%7B31%7D%2B1%7D%280%29%7D%7Be_%7B31%7D%2B1%7D "r_{31}=\dfrac{sen^{e_{31}+1}(\pi/ {a_{31}})-sen^{e_{31}+1}(0)}{e_{31}+1}")
 
 De ahora en adelante consideraremos las respuestas como otros parámetros
 (que dependen de los de cada ejercicio).
@@ -210,16 +224,16 @@ archivo .Rmd en lugar correspondiente de la siguiente forma:
 
 | Nombre variable en R | Valor numérico | Código Latex  |  Sustituir por  |
 |:--------------------:|:--------------:|:-------------:|:---------------:|
-|       a1\[1\]        |       13       |    a\_{11}    | \` r a1\[1\] \` |
+|       a1\[1\]        |       14       |    a\_{11}    | \` r a1\[1\] \` |
 |       a1\[2\]        |       12       |    a\_{12}    | \` r a1\[2\] \` |
-|       e1\[1\]        |       3        |    e\_{11}    | \` r e1\[1\] \` |
-|       e1\[2\]        |       6        |    e\_{12}    | \` r e1\[2\] \` |
+|       e1\[1\]        |       6        |    e\_{11}    | \` r e1\[1\] \` |
+|       e1\[2\]        |       3        |    e\_{12}    | \` r e1\[2\] \` |
 |          a2          |       0        |    a\_{21}    |   \` r a2 \`    |
-|          b2          |       5        |    b\_{21}    |   \` r b2 \`    |
-|          r2          |      12.5      | Respuesta Ej2 |   \` r b2 \`    |
-|          a3          |       6        |    a\_{31}    |   \` r a3 \`    |
+|          b2          |       6        |    b\_{21}    |   \` r b2 \`    |
+|          r2          |       18       | Respuesta Ej2 |   \` r b2 \`    |
+|          a3          |       3        |    a\_{31}    |   \` r a3 \`    |
 |          e3          |       3        |    e\_{31}    |   \` r e3 \`    |
-|          r3          |    0.109375    | Respuesta Ej3 |   \` r r3 \`    |
+|          r3          |    0.234375    | Respuesta Ej3 |   \` r r3 \`    |
 
 A continuación se muestra, para cada ejercicio, el texto de nuestro
 [ejemplo](#EjemploTextoLatex) después de realizar las sustituciones de
@@ -234,10 +248,13 @@ despliega al compilar el archivo .Rmd.
 ```
 
 1.  Resuelve la siguiente integral
-    ∫(13*x*<sup>5</sup>+1)(13*x*<sup>6</sup>+6*x*−12)<sup>3</sup>*d**x*
+
+    ![\\int({14}x^{2}+1 )({14}x^{3}+{3}x-{12})^{6}dx](https://latex.codecogs.com/png.latex?%5Cint%28%7B14%7Dx%5E%7B2%7D%2B1%20%29%28%7B14%7Dx%5E%7B3%7D%2B%7B3%7Dx-%7B12%7D%29%5E%7B6%7Ddx "\int({14}x^{2}+1 )({14}x^{3}+{3}x-{12})^{6}dx")
+
     .
 
-*Respuesta:* $\\dfrac{({13}x^{6}+{6}x-{12})^{4}}{24}+C$
+*Respuesta:*
+![\\dfrac{({14}x^{3}+{3}x-{12})^{7}}{21}+C](https://latex.codecogs.com/png.latex?%5Cdfrac%7B%28%7B14%7Dx%5E%7B3%7D%2B%7B3%7Dx-%7B12%7D%29%5E%7B7%7D%7D%7B21%7D%2BC "\dfrac{({14}x^{3}+{3}x-{12})^{7}}{21}+C")
 
 ``` r
 2. Encuentra el valor de la siguiente integral definida
@@ -247,9 +264,10 @@ $$ \int_{`r a2`}^{`r b2`} x dx $$
 ```
 
 2.  Encuentra el valor de la siguiente integral definida
-    ∫<sub>0</sub><sup>5</sup>*x**d**x*
 
-*Respuesta:* 12.5
+    ![ \\int\_{0}^{6} x dx ](https://latex.codecogs.com/png.latex?%20%5Cint_%7B0%7D%5E%7B6%7D%20x%20dx%20 " \int_{0}^{6} x dx ")
+
+*Respuesta:* 18
 
 ``` r
 3. Utiliza el Teorema Fundamental del Cálculo para encontrar el valor de 
@@ -259,9 +277,11 @@ $$\int_0^{\pi/ {`r a3`}} sen^{{`r e3`}}(x) cos(x) dx$$
 
 3.  Utiliza el Teorema Fundamental del Cálculo para encontrar el valor
     de
-    ∫<sub>0</sub><sup>*π*/6</sup>*s**e**n*<sup>3</sup>(*x*)*c**o**s*(*x*)*d**x*
+
+    ![\\int_0^{\\pi/ {3}} sen^{{3}}(x) cos(x) dx](https://latex.codecogs.com/png.latex?%5Cint_0%5E%7B%5Cpi%2F%20%7B3%7D%7D%20sen%5E%7B%7B3%7D%7D%28x%29%20cos%28x%29%20dx "\int_0^{\pi/ {3}} sen^{{3}}(x) cos(x) dx")
+
       
-    *Respuesta :* 0.109375
+    *Respuesta :* 0.234375
 
 \|[Inicio](#Inicio)\|
 
@@ -325,10 +345,10 @@ Datos
 ```
 
     ##        a11 a12 e11 e12 a21 b21  r21 a31 e31       r31
-    ## Ana     11   9   4   3  -1   6 17.5   3   5 0.1640625
-    ## Luis    11  15   6   3   0   5 12.5   4   3 0.1875000
-    ## MarÃ­a  13   9   5   3  -3   4  3.5   6   3 0.1093750
-    ## Pedro   10   9   7   3   0   6 18.0   3   4 0.1937500
+    ## Ana     12   9   3   4  -1   6 17.5   6   4 0.1025721
+    ## Luis    11  13   7   5   0   6 18.0   4   3 0.1875000
+    ## MarÃ­a  10  14   7   6  -3   4  3.5   6   3 0.1093750
+    ## Pedro   12  13   5   6  -1   6 17.5   2   3 0.2500000
 
 \|[Inicio](#Inicio)\|
 
