@@ -3,7 +3,9 @@ title: "Tutorial Exámenes personalizados"
 author: "Eréndira Munguía Villanueva, Emmanuel Munguía Balvanera"
 output:
   github_document:
-    pandoc_args: --webtex
+    math_method:
+      engine: webtex
+      url: https://latex.codecogs.com/svg.image?
     
 ---
 ## Inicio{#Inicio}
