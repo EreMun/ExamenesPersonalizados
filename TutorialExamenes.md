@@ -1,6 +1,8 @@
 Tutorial Exámenes personalizados
 ================
-Eréndira Munguía Villanueva, Emmanuel Munguía Balvanera
+Eréndira Munguía Villanueva, Emmanuel Munguía Balvanera, Iván Guadalupe Medoza Alonso
+
+Para la correcta visualización elija "modo claro" en su navegador.
 
 ## Inicio
 
