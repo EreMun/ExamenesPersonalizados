@@ -1,0 +1,139 @@
+---
+title: "Segunda Evaluación Lógica para Propedéutico V2025"
+output:
+  pdf_document: default
+params:
+  Carrera: "La Vida"
+  Nombre: "Peter Paterson"
+  ID: 1
+  
+---
+```{r setup, include=FALSE}
+# Usamos el ID del estudiante como semilla
+set.seed(params$ID%% .Machine$integer.max)
+
+library(stringr)
+```
+
+
+**Nombre:** `r params$Nombre`. **Carrera:** `r params$Carrera`  
+Profra. Dra. Eréndira Munguía Villanueva. emunguia@unpa.edu.mx  
+
+### Lee atentamente cada ejercicio, justifica todas tus respuestas y pregunta cualquier duda. 
+
+```{r Problema1, include=FALSE}
+valores1 <- sample(c("V", "F" ), 3, replace = TRUE)
+a1 <- sample(c("p ", "q ", "r "))
+b1 <- sample(c("\\land", "\\lor"))
+        
+```
+
+**1. En cada inciso encuentra el valor de verdad correspondiente, asumiendo que $p=`r valores1[1]`$, $q=`r valores1[2]`$, $r=`r valores1[3]`$. ** 
+$$
+\begin{array}{clclcl}
+a ) & ( `r a1[1]` `r b1[1]` \lnot `r a1[2]` )  `r b1[2]` \lnot `r a1[3]` & b )  & `r a1[2]` \rightarrow (\lnot `r a1[1]` `r b1[2]` `r a1[3]`) &c )  & [(`r a1[3]` \rightarrow `r a1[2]`)  \lor `r a1[3]` ] `r b1[1]`  \lnot [(`r a1[3]` \rightarrow `r a1[2]`)  \lor `r a1[3]` ]
+\end{array}
+$$
+```{r Problema2, include=FALSE}
+
+a2 <- sample(c("He cruzado el mundo y los siete mares. Todo el mundo está buscando mambo." , 
+               "Hay gente ordinaria y gente elegante, pero, no hay nadie como tú", 
+               "Nada se pierde. Todo se transforma "), 1)
+
+        
+```
+
+**2. Traduce a lógica de predicados:**  `r a2`
+
+
+```{r Problema3, include=FALSE}
+a3 <- sample(c("hace calor" , 
+               "hace Sol", 
+               "está nublado",
+               "está lloviendo",
+               "está fresco", "me invitan"), 2)
+b3 <- sample(c("voy al rancho", "veo el futbol", "salgo a pasear", "juego ping pong", "bailo cumbia", "voy al partido"),2)
+c31 <- sample(c(a3[1], b3[1]))
+c32 <- sample(c(a3[2], b3[2]))
+
+P31 <- paste("Si ", a3[1]," entonces ", b3[1])
+P32 <- paste("Hoy ", c31[1])
+Con31 <- paste("hoy ", c31[2])
+
+P33 <- paste("Si ", a3[2]," entonces ", b3[2])
+P34 <- paste("Hoy no ", c32[1])
+Con32 <- paste("hoy no ", c32[2])
+
+P35 <- paste("Si ", a3[1]," entonces ", b3[1])
+P36 <- paste("Hoy ", c31[2])
+Con33 <- paste("hoy ", c31[1])
+
+P37 <- paste("Si ", a3[2]," entonces ", b3[2])
+P38 <- paste("Hoy no ", c32[2])
+Con34 <- paste("hoy no ", c32[1])
+        
+```
+
+**3. En cada inciso identifica el tipo de argumento e indica si es un argumento válido o no.**
+
+a) `r P31`. `r P32`. Por lo tanto `r Con31`.
+
+b) `r P33`. `r P34`. Por lo tanto `r Con32`.
+
+c) `r P35`. `r P36`. Por lo tanto `r Con33`.
+
+d) `r P37`. `r P38`. Por lo tanto `r Con34`.
+
+```{r Problema4, include=FALSE}
+a4 <- sample(c("\\land", "\\lor"))
+        
+```
+
+**4. Demuestra que las siguientes fórmulas son  tautologías calculando su tabla de verdad. Acompaña cada inciso con un diagrama de Venn ilustrativo.**
+
+a ) $(p `r a4[2]` q ) \leftrightarrow (q `r a4[2]` p )$ 
+
+b ) $p `r a4[1]` (q `r a4[2]` r) \leftrightarrow (p `r a4[1]` q) `r a4[2]` (p `r a4[1]` r)$
+
+b ) $\lnot (p `r a4[2]` q)  \leftrightarrow \lnot p `r a4[1]` \lnot q$
+
+c ) $\lnot (p \rightarrow q ) \leftrightarrow (p \land \lnot q)$
+
+```{r Problema5, include=FALSE}
+a5 <- sample(c("\\exists", "\\forall"))
+        
+```
+**5. Traduce a lenguaje coloquial las siguientes proposiciones lógicas y anota su valor de verdad (F o V) según corresponda.**
+
+$\Omega$ = { Mariposas del campus Loma Bonita }
+
+Ama(x) = x tiene color amarillo; Roj(x) = x tiene color rojo; Neg(x) = x tiene color negro.
+
+
+a )  $`r a5[1]` x Ama(x)$  
+b ) $`r a5[2]` x \lnot Neg(x)$  
+c ) $`r a5[1]` x (Neg(x) \land Rojo(x))$  
+d ) $\forall x (Neg(x) \rightarrow \lnot Ama(x))$
+
+**6. En cada inciso escribe la negación de las siguientes proposiciones:**
+
+ b ) Existe alguien que es perfecto. b ) Todos los políticos de la S3 son incorruptibles.  
+
+```{r Problema7, include=FALSE}
+a7 <- sample(c("termino la tarea" , 
+               "lavo los trastes", 
+               "recojo mi cuarto",
+               "atiendo los animales",
+               "cuido al bebé"),1)
+b7 <- sample(c("voy al rancho", "veo el futbol", "salgo a pasear", "juego ping pong", "bailo cumbia", "voy al partido"),3)
+
+
+
+```
+
+**7. En cada inciso completa la conclusión lógica a partir de las siguientes premisas dadas:**
+
+a ) **Premisa 1:** Si `r b7[1]` entonces `r b7[2]`.  **Premisa 2:** Si `r a7`  entonces  `r b7[1]`. **Conclusión:** Si `r a7` entonces 
+
+b ) **Premisa 1:** Si no `r b7[3]`  entonces `r a7`.  **Premisa 2:** Mañana no `r a7`. **Conclusión:** 
+
